@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="./assets/previous.png" class="back" alt="">
+        <h2>weather app</h2>
+
+        <div class="formControl">
+            <label for="city">enter your city name</label>
+            <input type="text" id="city">
+        </div>
+
+        <div class="errorMsg">
+           <div class="loader"></div>
+           <span>loading...</span>
+        </div>
+
+
+        <div class="mainData">
+            <img width="130px" src="./assets/sun.png" alt="">
+
+            <p class="temp">20&deg;c</p>
+
+            <p class="cityname"> 
+                <img width="20px" src="/assets/map.png" alt="">
+                <span class="citydata">Jhunjhunu</span></p>
+
+
+            <p id="time">22:22:00 PM</p>
+
+
+
+            <div class="extraDetails">
+                Wind Speed =  
+                <p class="winds">
+                    55
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
